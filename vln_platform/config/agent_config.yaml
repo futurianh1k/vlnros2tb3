@@ -1,0 +1,8 @@
+model_name: "open-vlm-placeholder"
+use_fp8: true
+max_buffer_len: 32
+inference_timeout_ms: 200
+default_linear_velocity: 0.2
+default_angular_velocity: 0.0
+proximity_stop_threshold_m: 0.3
+
