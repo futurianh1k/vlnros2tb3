@@ -1,0 +1,10 @@
+model_name: open-source-vlm
+max_inference_latency_ms: 200
+proximity_stop_threshold_m: 0.3
+buffer_window_size: 5
+emergency_linear_velocity: 0.0
+emergency_angular_velocity: 0.0
+quantization:
+  precision: fp8
+  backend: vllm
+  enabled: true
